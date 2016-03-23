@@ -12,3 +12,27 @@ task-list {
   display: flex;
   flex-direction: column;
 }
+
+.task-form {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.add-button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: salmon;
+  &:hover {
+    background-color: lighten(salmon, 10%);
+    color: lighten(blue, 30%);
+  }
+}
+select {
+  font-size: 6rem;
+}
+.filter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
